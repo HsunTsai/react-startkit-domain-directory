@@ -82,7 +82,8 @@
 	},
 	"scripts": {
 		"start": "webpack-dev-server --mode development --profile --colors --hot --progress",
-		"deploy": "webpack --mode production --profile --colors --progress",
+		"deploy": "webpack --mode production --profile --colors",
+		"deploy-p": "webpack --mode production --profile --colors --progress",
 		"format": "prettier --write \"{,src/**/}*.{js,jsx}\""
 	}
 }
