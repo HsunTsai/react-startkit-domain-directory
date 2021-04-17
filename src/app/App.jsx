@@ -50,7 +50,7 @@ const App = () => {
 			<Header {...headerFooterConfig} pages={pages} />
 			<Switch>
 				{pages.map((page, index) => (
-					<Route key={index.toString()} path={`/${locale}${page.path}`} component={page.component} />
+					<Route key={index.toString()} path={`/:locale${page.path}`} component={page.component} />
 				))}
 				<Redirect to={`/${locale}${pages[0].path}`} />
 			</Switch>
