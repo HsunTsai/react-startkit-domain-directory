@@ -1,0 +1,23 @@
+.footer {
+	width: 100%;
+	padding: 60px 40px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	background: gray;
+	&__title {
+		display: flex;
+		align-items: center;
+	}
+	&__body {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 20px;
+		&__item {
+			width: 33%;
+			min-width: 300px;
+			padding-right: 30px;
+			margin-bottom: 30px;
+		}
+	}
+}
