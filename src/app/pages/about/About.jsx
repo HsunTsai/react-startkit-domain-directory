@@ -1,5 +1,6 @@
 import React from 'react';
 import { Avatar } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
 
 import './about.scss';
 
@@ -7,7 +8,9 @@ const About = () => (
 	<div className="about">
 		<div className="about__title">About Page</div>
 		<div className="about__avatar">
-			<Avatar className="about__avatar-item" icon="user" />
+			<Avatar className="about__avatar-item">
+				<UserOutlined />
+			</Avatar>
 			<Avatar className="about__avatar-item">U</Avatar>
 			<Avatar className="about__avatar-item">USER</Avatar>
 			<Avatar

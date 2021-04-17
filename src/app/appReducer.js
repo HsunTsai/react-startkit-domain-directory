@@ -1,8 +1,5 @@
 const INITIAL_STATE = {
-	language: {
-		locale: 'zh',
-		messages: null,
-	},
+	app: {},
 };
 
 const app = (state = INITIAL_STATE, action) => {

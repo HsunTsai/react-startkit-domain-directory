@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import axios from 'axios';
 import services from './app/config/services';
 import Loading from './app/common/loading/Loading';
-import { changeLang, supportLanguages } from './app/appAction';
+import { changeLang, supportLanguages } from './app/utils/languageTools';
 
 // 將 combineReducer 後的 Reducer import
 import reducers from './indexReducerRoot';
